@@ -87,7 +87,7 @@ export default function Home() {
               <div>
                 <h3>UnifoLM-WLA-1.0</h3>
                 <p className="work-subtitle">
-                  General-Purpose Humanoid Robot Foundation Model
+                  General-Purpose Humanoid Robot Foundation Model 🔥
                 </p>
                 <p className="work-description">
                   UnifoLM-WLA-1.0 is Unitree Robotics&apos; comprehensively upgraded,
@@ -146,8 +146,8 @@ export default function Home() {
                   The International Journal of Robotics Research (IJRR), 2026 🔥
                 </p>
                 <p className="work-authors">
-                  <strong>Xiaolei Lang</strong>, Jiajun Lv, Kai Tang, Laijian Li,
-                  Jianxin Huang, Lina Liu, Yong Liu, and Xingxing Zuo
+                  Xiaolei Lang, Jiajun Lv, Kai Tang, Laijian Li,
+                  <strong> Jianxin Huang</strong>, Lina Liu, Yong Liu, and Xingxing Zuo
                 </p>
                 <p className="work-description">
                   We present the first photo-realistic LiDAR-Inertial-Camera
