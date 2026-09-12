@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://jianxin-huang-research.jxhuang1995.chatgpt.site'),
   title: 'Jianxin Huang — Embodied AI Researcher',
   description:
-    'Research portfolio of Jianxin Huang, an algorithm researcher working on VLM, VLA, and world-action model pre-training.',
+    'Research portfolio of Jianxin Huang, an embodied AI researcher working on VLM, VLA, and world-action model pre-training.',
   openGraph: {
     title: 'Jianxin Huang — Embodied AI Researcher',
     description: 'Academic homepage and selected research by Jianxin Huang.',
