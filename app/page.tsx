@@ -5,6 +5,10 @@ const links = {
   scholar: 'https://scholar.google.com/citations?user=tulWjo8AAAAJ&hl=en',
   github: 'https://github.com/hjxwhy',
   bilibili: 'https://space.bilibili.com/165629418',
+  gaussianLic2Arxiv: 'https://arxiv.org/abs/2507.04004',
+  gaussianLic2Code: 'https://github.com/APRIL-ZJU/Gaussian-LIC',
+  gaussianLic2Video: 'https://www.youtube.com/watch?v=SkPnpuCfh88',
+  gaussianLic2Page: 'https://xingxingzuo.github.io/gaussian_lic2',
   lodm: 'https://ieeexplore.ieee.org/abstract/document/9981994/',
   lodmVideo: 'https://www.youtube.com/watch?v=CMhcLmH12_Q',
   vla: 'https://unigen-x.github.io/unifolm-vla.github.io/',
@@ -124,6 +128,39 @@ export default function Home() {
                 </p>
                 <p className="work-tags">Vision-language-action · Robot manipulation</p>
                 <OutLink href={links.vla}>Project page</OutLink>
+              </div>
+            </article>
+
+            <article className="work-item">
+              <div className="work-preview">
+                <img
+                  className="work-image"
+                  src="/gaussian-lic2.gif"
+                  alt="Gaussian-LIC2 SLAM demonstration"
+                />
+                <span>2026</span>
+              </div>
+              <div>
+                <h3>Gaussian-LIC2: LiDAR-Inertial-Camera Gaussian Splatting SLAM</h3>
+                <p className="work-subtitle">
+                  The International Journal of Robotics Research (IJRR), 2026 🔥
+                </p>
+                <p className="work-authors">
+                  <strong>Xiaolei Lang</strong>, Jiajun Lv, Kai Tang, Laijian Li,
+                  Jianxin Huang, Lina Liu, Yong Liu, and Xingxing Zuo
+                </p>
+                <p className="work-description">
+                  We present the first photo-realistic LiDAR-Inertial-Camera
+                  Gaussian Splatting SLAM that jointly addresses visual quality,
+                  geometric accuracy, and real-time performance.
+                </p>
+                <p className="work-tags">Gaussian Splatting · LiDAR-inertial-camera · SLAM</p>
+                <div className="work-links">
+                  <OutLink href={links.gaussianLic2Arxiv}>arXiv</OutLink>
+                  <OutLink href={links.gaussianLic2Code}>Code</OutLink>
+                  <OutLink href={links.gaussianLic2Video}>Video</OutLink>
+                  <OutLink href={links.gaussianLic2Page}>Page</OutLink>
+                </div>
               </div>
             </article>
 
