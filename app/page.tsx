@@ -77,10 +77,11 @@ export default function Home() {
                   muted
                   loop
                   playsInline
-                  preload="metadata"
+                  controls
+                  preload="auto"
                   aria-label="UnifoLM-WLA-1.0 video preview"
                 >
-                  <source src="/videos/unifolm-wla-1.0.mp4" type="video/mp4" />
+                  <source src="/videos/unifolm-wla-1.0.mp4?v=20260912" type="video/mp4" />
                 </video>
                 <span>2026</span>
               </div>
@@ -109,10 +110,11 @@ export default function Home() {
                   muted
                   loop
                   playsInline
-                  preload="metadata"
+                  controls
+                  preload="auto"
                   aria-label="UnifoLM-VLA-0 video preview"
                 >
-                  <source src="/videos/unifolm-vla-0.mp4" type="video/mp4" />
+                  <source src="/videos/unifolm-vla-0.mp4?v=20260912" type="video/mp4" />
                 </video>
                 <span>2026</span>
               </div>
@@ -168,7 +170,7 @@ export default function Home() {
               <div className="work-preview">
                 <img
                   className="work-image"
-                  src="/lodm-dense-mapping.png"
+                  src="/lodm-dense-mapping.png?v=20260912"
                   alt="LODM large-scale UAV dense mapping result"
                 />
                 <span>2022</span>
