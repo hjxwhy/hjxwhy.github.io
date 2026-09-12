@@ -36,3 +36,9 @@ next-env.d.ts
 /.wrangler/
 /outputs/
 /work/
+
+# GitHub Pages export metadata not needed by the static host
+/.assetsignore
+/.vite/
+/_headers
+/vinext-client-entry-manifest.json
