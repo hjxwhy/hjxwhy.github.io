@@ -6,6 +6,8 @@ const links = {
   scholar: 'https://scholar.google.com/citations?user=tulWjo8AAAAJ&hl=en',
   github: 'https://github.com/hjxwhy',
   bilibili: 'https://space.bilibili.com/165629418',
+  hit: 'https://www.hitwh.edu.cn/',
+  zju: 'https://www.zju.edu.cn/',
   gaussianLic2Arxiv: 'https://arxiv.org/abs/2507.04004',
   gaussianLic2Code: 'https://github.com/APRIL-ZJU/Gaussian-LIC',
   gaussianLic2Video: 'https://www.youtube.com/watch?v=SkPnpuCfh88',
@@ -55,12 +57,20 @@ export default function Home() {
           <section id="about">
             <h2>About</h2>
             <p>
-              I received my B.Eng. in Automation from Harbin Institute of
-              Technology in 2019 and my M.Eng. from the College of Control Science
-              and Engineering at Zhejiang University in 2023. My current research
-              primarily focuses on <strong>Embodied AI</strong>. I am also interested
-              in <strong>Stereo</strong>, <strong>feed-forward 3D reconstruction</strong>,
-              and <strong>video world models</strong>.
+              I obtained my M.Eng. from the College of Control Science and Engineering
+              at{' '}
+              <a href={links.zju} target="_blank" rel="noreferrer">
+                Zhejiang University
+              </a>{' '}
+              in 2023 and my B.Eng. in Automation from{' '}
+              <a href={links.hit} target="_blank" rel="noreferrer">
+                Harbin Institute of Technology
+              </a>{' '}
+              in 2019. My current research primarily focuses on{' '}
+              <strong>Embodied AI</strong>. I am also interested in{' '}
+              <strong>deep stereo matching</strong>,{' '}
+              <strong>feed-forward 3D reconstruction</strong>, and{' '}
+              <strong>video world models</strong>.
             </p>
           </section>
 
