@@ -1,4 +1,5 @@
 import { ExternalLink } from 'lucide-react';
+import { ProjectVideo } from '@/components/project-video';
 
 const links = {
   email: 'mailto:jx_huang@163.com',
@@ -71,18 +72,10 @@ export default function Home() {
 
             <article className="work-item">
               <div className="work-preview">
-                <video
-                  className="work-video"
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  controls
-                  preload="auto"
-                  aria-label="UnifoLM-WLA-1.0 video preview"
-                >
-                  <source src="/videos/unifolm-wla-1.0.mp4?v=20260912" type="video/mp4" />
-                </video>
+                <ProjectVideo
+                  src="/videos/unifolm-wla-1.0.mp4?v=20260912b"
+                  label="UnifoLM-WLA-1.0 video preview"
+                />
                 <span>2026</span>
               </div>
               <div>
@@ -104,18 +97,10 @@ export default function Home() {
 
             <article className="work-item">
               <div className="work-preview">
-                <video
-                  className="work-video"
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  controls
-                  preload="auto"
-                  aria-label="UnifoLM-VLA-0 video preview"
-                >
-                  <source src="/videos/unifolm-vla-0.mp4?v=20260912" type="video/mp4" />
-                </video>
+                <ProjectVideo
+                  src="/videos/unifolm-vla-0.mp4?v=20260912b"
+                  label="UnifoLM-VLA-0 video preview"
+                />
                 <span>2026</span>
               </div>
               <div>
@@ -139,6 +124,8 @@ export default function Home() {
                   className="work-image"
                   src="/gaussian-lic2.gif"
                   alt="Gaussian-LIC2 SLAM demonstration"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <span>2026</span>
               </div>
@@ -170,8 +157,10 @@ export default function Home() {
               <div className="work-preview">
                 <img
                   className="work-image"
-                  src="/lodm-dense-mapping.png?v=20260912"
+                  src="/lodm-dense-mapping.jpg?v=20260912b"
                   alt="LODM large-scale UAV dense mapping result"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <span>2022</span>
               </div>
